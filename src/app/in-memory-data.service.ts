@@ -6,7 +6,6 @@ import { Hero } from './hero';
   providedIn: 'root',
 })
 export class InMemoryDataService implements InMemoryDbService {
-  // tslint:disable-next-line:typedef
   createDb() {
     const heroes = [
       { id: 11, name: 'Dr Nice' },
